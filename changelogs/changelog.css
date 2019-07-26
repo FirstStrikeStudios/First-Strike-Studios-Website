@@ -1,0 +1,129 @@
+<style>
+			html {
+				background-color: white;
+			}
+			div.release {
+				position: relative;
+				left: 25%;
+				width: 50%;
+				
+				font-size: 14px;
+				font-family: "Helvetica Neue",helvetica,sans-serif;
+			}
+			
+			img {
+				width: 100%;
+				margin: 10px 0;
+			}
+
+			a {
+				color: #319ebc;
+				text-decoration: none;
+				outline: none;
+			}
+			a:hover {
+				color: #000;
+			}
+
+			h1.title {
+				font-size: 32px;
+				text-align: center;
+			}
+			h4 {
+				margin: 0px;
+				margin-left: 15px;
+				font-size: 12px;
+			}
+			
+			span.subtitle {
+				font-weight: normal;
+				margin-left: 5px;
+				font-size: 10px;
+			}
+			
+			/* Shitstickss */
+			
+			ul.update_list {
+				list-style: none;
+				/*padding-top: 10px;*/
+				font-size: 12px;
+				clear: both;
+				font-family: "Helvetica Neue",helvetica,sans-serif;
+			}
+			ul.update_list li {
+				margin-bottom: 10px;
+				color: #525252;
+			}
+			ul.update_list li span {
+				display: block;
+				float: left;
+				font-size: 10px;
+				font-weight: bold;
+				margin-right: 10px;
+			}
+			
+			ul.update_list li span b {
+				-moz-border-radius: 3px;
+				-webkit-border-radius: 3px;
+				border-radius: 3px;
+				font-size: 10px;
+				font-weight: bold;
+				padding: 2px 6px 2px;
+				text-transform: uppercase;
+				color: #fff;
+				display: block;
+				min-width: 35px;
+				text-align: center;
+			}
+			ul.update_list li.green span b {
+				background: #6bbd43;
+			}
+			ul.update_list li.red span b {
+				background: #f5252e;
+			}
+			ul.update_list li.blue span b {
+				background: #1fa3e0;
+			}
+			ul.update_list li.gray span b {
+				background: #555555;
+			}
+			ul.update_list li.yellow span b {
+				background: #ffff00;
+			}			
+
+			ul.update_list li ul {
+				margin-left: 36px;
+			}
+			ul.update_list li ul li {
+				margin-bottom: 0px;
+			}
+			
+			.n2ew::before {
+				content: "NEW";
+				background: #ec0;
+				padding: 1px 8px;
+				color: #fff;
+				border-radius: 3px;
+				margin: 0 0 0 10px;
+			}
+
+			.community {
+				background: #292;
+				padding: 2px 8px;
+				color: #fff;
+				border-radius: 3px;
+				margin: 0 0 0 3px;
+				font-size: 10px;
+			}
+			.date {
+				background: #777;
+				padding: 2px 8px;
+				color: #fff;
+				border-radius: 3px;
+				margin: 0 5px 0 -5px;
+				font-size: 10px;
+			}
+			.new .date {
+				background: #ec0;
+			}
+		</style>
